@@ -10,7 +10,7 @@ export default function Contact() {
         <div className="col-lg-4 mb-md-50 mb-sm-30 position-relative z-index-1">
           <h2 className="section-caption-fancy mb-20 mb-xs-10">Contact Us</h2>
           <h3 className="section-title mb-50 mb-sm-30">
-            Pricing & Contact – The Gift of Remembrance
+            Tell Us About the Memories You Want to Preserve
           </h3>
           {/* Contact Information */}
           <div className="row">
@@ -61,6 +61,12 @@ export default function Contact() {
               ))}
               {/* End Phone */}
             </div>
+            <p>
+              We work closely with a limited number of families each month to
+              ensure every memory is treated with care and respect. <br /> If
+              this speaks to your heart, reach out today. Let’s create something
+              meaningful together.
+            </p>
           </div>
           {/* End Contact Information */}
         </div>
@@ -126,13 +132,41 @@ export default function Contact() {
                 </div>
                 {/* Message */}
                 <div className="form-group">
-                  <label htmlFor="message">Message</label>
+                  <label htmlFor="message">
+                    Who do you want to preserve memories of?
+                  </label>
                   <textarea
                     name="message"
                     id="message"
                     className="input-lg round form-control"
                     style={{ height: 130 }}
-                    placeholder="Enter your message"
+                    placeholder="Who do you want to preserve memories of?"
+                    defaultValue={""}
+                  />
+                </div>
+                <div className="form-group">
+                  <label htmlFor="message">
+                    What is something about them you never want to forget?
+                  </label>
+                  <textarea
+                    name="forget"
+                    id="forget"
+                    className="input-lg round form-control"
+                    style={{ height: 130 }}
+                    placeholder="What is something about them you never want to forget?"
+                    defaultValue={""}
+                  />
+                </div>
+                <div className="form-group">
+                  <label htmlFor="message">
+                    Why is this important to you? (Share your thoughts with us…)
+                  </label>
+                  <textarea
+                    name="reason"
+                    id="reason"
+                    className="input-lg round form-control"
+                    style={{ height: 130 }}
+                    placeholder="Why is this important to you? (Share your thoughts with us…)"
                     defaultValue={""}
                   />
                 </div>

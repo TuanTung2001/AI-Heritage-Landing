@@ -12,7 +12,7 @@ const ServiceItem = ({ src, title, text }) => (
             height={198}
             alt="Image Description"
             className="h-100"
-            style={{objectFit: "cover"}}
+            style={{ objectFit: "cover" }}
           />
         </div>
         <div className="services-5-body d-flex align-items-center">
@@ -29,6 +29,14 @@ export default function Service() {
   return (
     <>
       <div className="row services-5-grid">
+        <div className="col-lg-12 mb-md-60 mb-sm-30">
+          <h2
+            className="section-caption-fancy mb-20 mb-xs-10"
+            style={{ width: "fit" }}
+          >
+            Why Nexcyra?
+          </h2>
+        </div>
         {/* Services Item */}
         {services3.map((service, index) => (
           <ServiceItem key={index} {...service} />
@@ -36,7 +44,6 @@ export default function Service() {
         {/* End Services Item */}
       </div>
       {/* End Services Grid */}
-      
     </>
   );
 }

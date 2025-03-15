@@ -35,7 +35,7 @@ export default function TestimonialsDark() {
     <div className="container position-relative">
       <div className="row">
         {/* Section Text */}
-        <div className="col-lg-5 col-xl-5 d-flex align-items-center mb-md-60 mb-sm-40">
+        {/* <div className="col-lg-5 col-xl-5 d-flex align-items-center mb-md-60 mb-sm-40">
           <div className="w-100">
             <h2 className="section-caption-fancy mb-20 mb-xs-10">
               Testimonials
@@ -49,7 +49,6 @@ export default function TestimonialsDark() {
               website. Each time that page is requested, the same content is
               returned.
             </p>
-            {/* Numbers */}
             <div className="row">
               {numberItems2.map((item, index) => (
                 <div
@@ -63,12 +62,11 @@ export default function TestimonialsDark() {
                 </div>
               ))}
             </div>
-            {/* End Numbers */}
           </div>
-        </div>
+        </div> */}
         {/* End Section Text */}
         {/* Testimonials Grid */}
-        <div className="col-lg-7 col-xl-6 offset-xl-1 d-flex align-items-center">
+        <div className="col-lg-12 col-xl-12 d-flex align-items-center">
           <div className="w-100 position-relative">
             {/* Decoration Dots */}
             <div
@@ -123,10 +121,10 @@ export default function TestimonialsDark() {
         {/* Testimonials Grid */}
       </div>
       {/* Logotypes */}
-      <div className="page-section pb-0 text-center">
+      {/* <div className="page-section pb-0 text-center">
         <h3 className="section-title-tiny">Trusted by Leading Companies</h3>
         <BrandsDark />
-      </div>
+      </div> */}
       {/* End Logotypes */}
     </div>
   );

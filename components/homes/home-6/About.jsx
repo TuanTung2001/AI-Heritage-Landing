@@ -8,7 +8,7 @@ export default function About() {
           <div className="composition-1">
             <div className="composition-1-image-1">
               <Image
-                src="/assets/landing/img1.png"
+                src="/assets/landing/img2.png"
                 width={480}
                 height={358}
                 alt="Image Description"
@@ -16,7 +16,7 @@ export default function About() {
             </div>
             <div className="composition-1-image-2">
               <Image
-                src="/assets/landing/img2.png"
+                src="/assets/landing/img1.png"
                 width={440}
                 height={330}
                 alt="Image Description"
@@ -29,7 +29,7 @@ export default function About() {
               data-rellax-percentage="0.65"
             >
               <Image
-                src="/assets/landing/img3.png"
+                src="/assets/images/demo-fancy/decoration-1.svg"
                 width={159}
                 height={74}
                 alt=""
@@ -42,7 +42,7 @@ export default function About() {
               data-rellax-percentage="0.2"
             >
               <Image
-                src="/assets/landing/img4.png"
+                src="/assets/images/demo-fancy/decoration-2.svg"
                 width={102}
                 height={113}
                 alt=""
@@ -56,7 +56,7 @@ export default function About() {
           <div className="composition-2">
             <div className="composition-2-image-1 mt-xs-0">
               <Image
-                src="/assets/landing/img1.png"
+                src="/assets/landing/family2.png"
                 width={372}
                 height={500}
                 alt="Image Description"
@@ -77,7 +77,7 @@ export default function About() {
               data-rellax-percentage="0.2"
             >
               <Image
-                src="/assets/landing/img4.png"
+                src="/assets/images/demo-fancy/decoration-3.svg"
                 width={102}
                 height={97}
                 alt=""
@@ -125,7 +125,7 @@ export default function About() {
               data-rellax-percentage="0.5"
             >
               <Image
-                src="/assets/landing/img4.png"
+                src="/assets/images/demo-fancy/decoration-5.svg"
                 width={148}
                 height={148}
                 alt=""

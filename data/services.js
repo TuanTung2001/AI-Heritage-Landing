@@ -106,24 +106,29 @@ export const serviceItems = [
 export const services3 = [
   {
     src: "/assets/landing/service1.jpg",
-    title: "Step 1: Share Their Story",
-    text: "Upload voice messages, recordings, stories, and the moments you never want to forget.",
+    title: "Seamless & Natural",
+    text: "Revisit their voice in a way that feels effortless and familiar—like they’re still right there with you.",
   },
   {
     src: "/assets/landing/service2.jpg",
-    title: "Step 2: Personalize Their Memory",
-    text: "Eternal crafts an interactive memory space – where you can listen, revisit, and find comfort in their presence.",
+    title: "True to Their Voice",
+    text: "Every word is real, untouched, and genuine, keeping their presence authentic.",
   },
   {
     src: "/assets/landing/service3.jpg",
-    title: "Step 3: Reconnect, Whenever You Need",
-    text: "A place to go when you miss them. A voice to hear when you need their wisdom. A legacy, preserved.",
+    title: "A Healing Experience",
+    text: "Not just remembering—but feeling close again, whenever you need it.",
   },
-  // {
-  //   src: "/assets/landing/service4.jpg",
-  //   title: "Marketing",
-  //   text: "Marketing refers to activities a company undertakes to promote the buying or selling of a product, service, or good.",
-  // },
+  {
+    src: "/assets/landing/service4.jpg",
+    title: "Privacy & Security",
+    text: "Marketing refers to activities a company undertakes to promote the buying or selling of a product, service, or good.",
+  },
+  {
+    src: "/assets/landing/family1.jpg",
+    title: "Always Within Reach",
+    text: "A moment of comfort is just a tap away—on your phone, tablet, or computer.",
+  },
 ];
 
 export const services4 = [

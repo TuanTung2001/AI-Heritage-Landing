@@ -16,25 +16,21 @@ export default function Hero2() {
             <div className="col-md-10 offset-md-1 col-lg-6 offset-lg-0 d-flex align-items-center mb-md-60 mb-sm-30">
               <div className="w-100 text-center text-lg-start">
                 <h2 className="section-caption mb-30 mb-xs-10 wow fadeInUp">
-                  Resonance Creative Studio
+                Opening - Hook
                 </h2>
                 <h1 className="hs-title-8 mb-40 mb-sm-20 wow fadeInUp">
-                  Create your beautiful web presence
-                  <span className="visually-hidden">easily, fast, smart</span>
+                Nexcyra – Keep Their Voice. Hold Onto
+                  <span className="visually-hidden">Their Love.</span>
                   <TypeWriter
                     colorClass=""
-                    strings={["easily", "fast", "smart"]}
+                    strings={["Their Love.","Their Wisdom.", "Their Stories.", "Their Presence."]}
                   />
                 </h1>
-                <p
-                  className="section-descr mb-50 wow fadeInUp"
-                  data-wow-delay="0.2s"
-                >
-                  Resonance is a full-service creative studio creating beautiful
-                  digital experiences and products.
+                <p className="" data-wow-delay="0.2s">
+                They may be gone, but their words, their wisdom, and their love don’t have to be.
                 </p>
                 <div
-                  className="local-scroll mt-n10 wow fadeInUp wch-unset"
+                  className="local-scroll mt-n10 "
                   data-wow-delay="0.4s"
                   data-wow-offset={0}
                 >
@@ -76,7 +72,7 @@ export default function Hero2() {
                       <Image
                         width={850}
                         height={834}
-                        src="/assets/images/hs-image-1.jpg"
+                        src="/assets/landing/family2.png"
                         alt="Image Description"
                       />
                     </div>
@@ -86,7 +82,7 @@ export default function Hero2() {
                       <Image
                         width={570}
                         height={598}
-                        src="/assets/images/hs-image-2.jpg"
+                        src="/assets/landing/ava.png"
                         alt="Image Description"
                       />
                     </div>

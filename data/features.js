@@ -97,10 +97,9 @@ export const features2 = [
 ];
 
 export const features3 = [
-  { text: "We're professional" },
-  { text: "We're creative" },
-  { text: "We're honest" },
-  { text: "We're friendly" },
+  { text: "Not just a recording, but a presence that lingers." },
+  { text: "Not an imitation, but an echo of their love and wisdom." },
+  { text: "Not a chatbot, but a memory—preserved, not recreated." },
 ];
 
 export const features4 = [
