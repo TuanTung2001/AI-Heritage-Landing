@@ -1,7 +1,6 @@
-import Footer1 from "@/components/footers/Footer1";
-import Link from "next/link";
-import React from "react";
+import Footer6 from "@/components/footers/Footer6";
 import Image from "next/image";
+import Link from "next/link";
 export const metadata = {
   title:
     "Page Not Found || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
@@ -22,7 +21,7 @@ export default function MainAboutPage1() {
                 <div className="nav-logo-wrap local-scroll">
                   <Link href={`/`} className="logo">
                     <Image
-                      src="/assets/images/logo-white.svg"
+                      src="/logo 1.png"
                       alt="Your Company Logo"
                       width={105}
                       height={34}
@@ -46,14 +45,15 @@ export default function MainAboutPage1() {
                 <div className="inner-nav desktop-nav">
                   <ul className="clearlist scroll-nav local-scroll justify-content-end">
                     <li className="active">
-                      <a href="mailto:ibthemes21@gmail.com">
+                      <a href="mailto:hello@nexcyra.com">
                         <i className="mi-email align-center" />
-                        ibthemes21@gmail.com
+                        hello@nexcyra.com
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        <i className="mi-call align-center" /> 0307-567-890
+                        <i className="mi-call align-center" /> +1 (315) 544 -
+                        0192
                       </a>
                     </li>
                   </ul>
@@ -67,8 +67,7 @@ export default function MainAboutPage1() {
               <section
                 className="home-section bg-dark-1 bg-dark-alpha-60 light-content parallax-5"
                 style={{
-                  backgroundImage:
-                    "url(/assets/images/full-width-images/section-bg-3.jpg)",
+                  backgroundImage: "url(/assets/landing/family.jpg)",
                 }}
                 id="home"
               >
@@ -111,9 +110,10 @@ export default function MainAboutPage1() {
               {/* End Home Section */}
             </main>
           </>
-
-          <Footer1 />
-        </div>{" "}
+          <footer className="page-section footer bg-dark-1 light-content pb-30">
+            <Footer6 />
+          </footer>
+        </div>
       </div>
     </>
   );
