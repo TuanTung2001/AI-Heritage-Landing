@@ -1,33 +1,21 @@
 export const testimonials = [
   {
-    quote: `When I was a kid, my dad used to leave me little voice notes. ‘Stay strong, kiddo.’ ‘You got this.’ ‘I’m proud of you.’ After he passed, I was terrified I’d forget the way he sounded. I’d play his old voicemails over and over, afraid that one day, they’d stop being enough. With Eternal, I don’t just have recordings—I have a way to hear his words when I need them most. When I feel lost, I can go back and be reminded of what he would have told me. It’s not about pretending he’s still here. It’s about remembering that his love, his wisdom, his support—they never really left.`,
+    quote: `My dad always had the right words. Growing up, my dad left me little voice notes—“Stay strong, kiddo.” “You got this.” After he passed, I feared forgetting his voice, replaying his voicemails over and over. With Nexcyra, I don’t just have recordings—I have a way to hear his words when I need them most. When I feel lost, I can listen and be reminded of what he would have told me. It’s not about pretending he’s still here—it’s about knowing his love never left.`,
     author: "Adam Peterson",
-    role: "Business Owner",
+    role: "California",
     image: "/assets/landing/ava.png",
   },
   {
-    quote: `She may be gone, but her love still finds me.`,
+    quote: `My best friend’s voice still makes me smile. We spent endless nights talking—about dreams, love, and life. She knew me better than anyone. When she passed, it felt like a part of me disappeared with her. The silence was unbearable. With Nexcyra, I can still hear her laugh, revisit her words, and feel her presence when I need it most. It’s not about living in the past—it’s about holding onto the love we shared and carrying it forward.`,
     author: "Adam Peterson",
-    role: "Business Owner",
-    image: "/assets/landing/ava.png",
+    role: "New York",
+    image: "/assets/landing/2.png",
   },
   {
-    quote: `My best friend knew me better than anyone. We used to have these late-night conversations about everything—life, love, our dreams. When she passed, I felt like I had lost a part of myself. Eternal gave me a way to hold onto our conversations. I can still hear her laugh, still read her words, still feel her presence in moments when I need her most. It’s not about living in the past. It’s about keeping the love alive.`,
-    author: "Adam Peterson",
-    role: "Business Owner",
-    image: "/assets/landing/ava.png",
-  },
-  {
-    quote: `When we got married, my wife used to say, ‘No matter what happens, I’ll always be with you.’ I held onto those words through every joy, every challenge, every quiet moment we shared. When she passed away, the silence was unbearable. I missed our late-night talks, the way she reassured me after a long day, the little messages she’d send just to make me smile. With Eternal, I can still hear her voice, still read her words, still feel her presence in my life. It doesn’t replace her, but it reminds me that love doesn’t disappear—it stays, it lingers, it finds its way back to you when you need it most.`,
-    author: "Adam Peterson",
-    role: "Business Owner",
-    image: "/assets/landing/ava.png",
-  },
-  {
-    quote: `Their love never fades – and now, neither does their voice.`,
-    author: "Adam Peterson",
-    role: "Business Owner",
-    image: "/assets/landing/ava.png",
+    quote: `My wife promised she’d always be with me. She used to say it all the time—“No matter what happens, I’ll always be with you.” I never thought those words would mean so much until she was gone. The nights felt too quiet, the absence too heavy. I missed her voice, her comfort, her presence. With Nexcyra, I can still hear her, still feel the warmth of her words. It doesn’t replace her—it simply reminds me that love lingers, it stays, it finds its way back when I need it most.`,
+    author: "Join",
+    role: "Los Angeles",
+    image: "/assets/landing/3.png",
   },
 ];
 

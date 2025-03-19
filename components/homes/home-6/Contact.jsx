@@ -16,7 +16,7 @@ export default function Contact() {
           <div className="row">
             <div className="col-md-11">
               {/* Address */}
-
+{/* 
               {contactItems.map((item, index) => (
                 <React.Fragment key={index}>
                   <div
@@ -58,7 +58,7 @@ export default function Contact() {
                     </div>
                   </div>
                 </React.Fragment>
-              ))}
+              ))} */}
               {/* End Phone */}
             </div>
             <p>
@@ -75,7 +75,7 @@ export default function Contact() {
         <div className="col-lg-8 col-xl-7 offset-xl-1">
           <div className="position-relative">
             {/* Decorative Image */}
-            <div className="decoration-11 d-none d-xl-block">
+            {/* <div className="decoration-11 d-none d-xl-block">
               <div className="wow fadeInUp">
                 <Image
                   src="/assets/landing/img1.png"
@@ -84,7 +84,7 @@ export default function Contact() {
                   alt=""
                 />
               </div>
-            </div>
+            </div> */}
             {/* End Decorative Image */}
             <div className="box-shadow round p-4 p-sm-5">
               <h4 className="h3 mb-30">Get in Touch</h4>
@@ -139,7 +139,7 @@ export default function Contact() {
                     name="message"
                     id="message"
                     className="input-lg round form-control"
-                    style={{ height: 130 }}
+                    style={{ height: 100 }}
                     placeholder="Who do you want to preserve memories of?"
                     defaultValue={""}
                   />
@@ -152,7 +152,7 @@ export default function Contact() {
                     name="forget"
                     id="forget"
                     className="input-lg round form-control"
-                    style={{ height: 130 }}
+                    style={{ height: 100 }}
                     placeholder="What is something about them you never want to forget?"
                     defaultValue={""}
                   />
@@ -165,7 +165,7 @@ export default function Contact() {
                     name="reason"
                     id="reason"
                     className="input-lg round form-control"
-                    style={{ height: 130 }}
+                    style={{ height: 100 }}
                     placeholder="Why is this important to you? (Share your thoughts with us…)"
                     defaultValue={""}
                   />

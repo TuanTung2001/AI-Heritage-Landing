@@ -2,10 +2,10 @@ import React from "react";
 
 export default function FooterSocials() {
   const socials = [
-    { name: "Facebook", icon: "fa-facebook", url: "#" },
-    { name: "YouTube", icon: "fa-youtube", url: "#" },
-    { name: "Pinterest", icon: "fa-pinterest", url: "#" },
-    { name: "LinkedIn", icon: "fa-linkedin", url: "#" },
+    { name: "Facebook", icon: "fa-facebook", url: "https://www.facebook.com/nexcyra" },
+    { name: "TikTok", icon: "fa-tiktok", url: "https://www.tiktok.com/@nexcyra" },
+    // { name: "Pinterest", icon: "fa-pinterest", url: "#" },
+    // { name: "LinkedIn", icon: "fa-linkedin", url: "#" },
   ];
 
   return (

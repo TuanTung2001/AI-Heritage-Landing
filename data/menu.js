@@ -1,3 +1,10 @@
+export const nexCyraMultipage = [
+  { href: "/", text: "Home", class: "active" },
+  { href: "/about-us", text: "About" },
+  { href: "/faq", text: "FAQ" },
+  { href: "/contact", text: "Contact" },
+];
+
 export const strongMultiPages = [
   { href: "/strong-multi-page", text: "Home" },
   { href: "/strong-about", text: "About", className: "active" },
@@ -234,6 +241,19 @@ export const mainDemoOnepage = [
   { href: "#portfolio", text: "Portfolio" },
   { href: "#blog", text: "Blog" },
   { href: "#contact", text: "Contact" },
+];
+
+export const menuHeader = [
+  {
+    title: "Home",
+    link: "/",
+    subMenu: [
+      {
+        title: "Multi Page",
+        links: [{ href: "/main-multi-page", text: "Main Demo" }],
+      },
+    ],
+  },
 ];
 
 export const menuItems = [

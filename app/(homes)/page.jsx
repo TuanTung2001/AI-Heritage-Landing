@@ -1,14 +1,9 @@
 import Footer6 from "@/components/footers/Footer6";
 import Header6 from "@/components/headers/Header6";
-import Home6 from "@/components/homes/home-6";
-import Hero1 from "@/components/homes/home-6/heros/Hero1";
 import Hero2 from "@/components/homes/home-1/heros/Hero2";
+import Home6 from "@/components/homes/home-6";
+import { nexCyraMultipage } from "@/data/menu";
 import Image from "next/image";
-import dynamic from "next/dynamic";
-import { fancyMultipage } from "@/data/menu";
-import ParallaxContainer from "@/components/common/ParallaxContainer";
-import Header1Multipage from "@/components/headers/Header1Multipage";
-import { menuItems } from "@/data/menu";
 
 export const metadata = {
   title:
@@ -23,7 +18,7 @@ export default function Home6ImageParallaxMultiPage() {
         <div className="page" id="top">
           <div className="dark-mode">
             <nav className="main-nav transparent stick-fixed wow-menubar ">
-              <Header1Multipage links={menuItems} />
+              <Header6 links={nexCyraMultipage} />
             </nav>
           </div>
           <main id="main">

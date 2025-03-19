@@ -15,9 +15,6 @@ export default function Hero2() {
             {/* Home Section Text */}
             <div className="col-md-10 offset-md-1 col-lg-6 offset-lg-0 d-flex align-items-center mb-md-60 mb-sm-30">
               <div className="w-100 text-center text-lg-start">
-                <h2 className="section-caption mb-30 mb-xs-10 wow fadeInUp">
-                Opening - Hook
-                </h2>
                 <h1 className="hs-title-8 mb-40 mb-sm-20 wow fadeInUp">
                 Nexcyra – Keep Their Voice. Hold Onto
                   <span className="visually-hidden">Their Love.</span>
@@ -38,7 +35,7 @@ export default function Hero2() {
                     href="#portfolio"
                     className="btn btn-mod btn-large btn-round btn-hover-anim align-middle mt-10"
                   >
-                    <span>View Portfolio</span>
+                    <span>Begin Remembering</span>
                   </a>
                   <a
                     onClick={() => setOpen(true)}
@@ -82,7 +79,7 @@ export default function Hero2() {
                       <Image
                         width={570}
                         height={598}
-                        src="/assets/landing/ava.png"
+                        src="/assets/landing/home8.png"
                         alt="Image Description"
                       />
                     </div>

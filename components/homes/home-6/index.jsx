@@ -1,27 +1,22 @@
-import React from "react";
-import About from "./About";
-import Features from "./Features";
-import Portfolio from "./Portfolio";
-import Testimonials from "./Testimonials";
-import Blog from "./Blog";
-import Newsletter from "./Newsletter";
-import Pricing from "./Pricing";
-import Contact from "./Contact";
-import Link from "next/link";
-import TestimonialsDark from "./TestimonialsDark";
-import Content from "@/components/homes/home-6/Content";
+import Slider6 from "@/components/elements/Slider6";
 import Faqs from "@/components/homes/home-1/Faq";
-import Image from "next/image";
-import ServiceCustom from "@/components/homes/home-6/ServiceCustom";
 import CustomerReview from "@/components/homes/home-6/CustomReview";
 import Service from "@/components/homes/home-6/Service";
-import Slider5 from "@/components/elements/Slider5";
-import Slider6 from "@/components/elements/Slider6";
-import Slider3 from "@/components/elements/Slider3";
+import ServiceCustom from "@/components/homes/home-6/ServiceCustom";
+import Image from "next/image";
+import Link from "next/link";
+import About from "./About";
+import Contact from "./Contact";
+import Features from "./Features";
 
 export default function Home6({ onePage = false, dark = false }) {
   return (
     <>
+      <section
+        className={`page-section  ${dark ? "bg-dark-1 light-content" : ""}`}
+      >
+        <Features />
+      </section>
       <hr className={`mt-0 mb-0 ${dark ? "white" : ""}`} />
       <section
         className={`page-section  scrollSpysection ${
@@ -122,11 +117,6 @@ export default function Home6({ onePage = false, dark = false }) {
           {/* End Images Composition */}
         </div>
       </section>
-      <section
-        className={`page-section  ${dark ? "bg-dark-1 light-content" : ""}`}
-      >
-        <Features />
-      </section>
       <hr className={`mt-0 mb-0 ${dark ? "white" : ""}`} />
       <section
         className={`page-section scrollSpysection  ${
@@ -176,7 +166,7 @@ export default function Home6({ onePage = false, dark = false }) {
             alt="Image Description"
             width={1200}
             height={658}
-            className="w-100 h-100"
+            className="w-100 h-100 rounded-3"
             style={{ objectFit: "cover" }}
             data-wow-duration="1.2s"
             data-wow-offset={0}
@@ -209,7 +199,6 @@ export default function Home6({ onePage = false, dark = false }) {
         </div>
       </section> */}
 
-      <hr className={`mt-0 mb-0 ${dark ? "white" : ""}`} />
       {/* <section
         className={`page-section  scrollSpysection  ${
           dark ? "bg-dark-1 light-content" : ""
@@ -238,7 +227,7 @@ export default function Home6({ onePage = false, dark = false }) {
       >
         <Pricing />
       </section> */}
-      <hr className={`mt-0 mb-0 ${dark ? "white" : ""}`} />
+      {/* <hr className={`mt-0 mb-0 ${dark ? "white" : ""}`} /> */}
       <section
         className={`page-section  scrollSpysection  ${
           dark ? "bg-dark-1 light-content" : ""

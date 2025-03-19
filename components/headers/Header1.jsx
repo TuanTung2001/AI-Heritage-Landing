@@ -14,14 +14,14 @@ export default function Header1({ links }) {
       <div className="nav-logo-wrap local-scroll">
         <Link href="/" className="logo">
           <Image
-            src="/assets/images/logo-dark.svg"
+            src="/logo 1.png"
             alt="Your Company Logo"
             width={105}
             height={34}
             className="light-mode-logo"
           />
           <Image
-            src="/assets/images/logo-white.svg"
+            src="/logo 1.png"
             alt="Your Company Logo"
             width={105}
             height={34}
@@ -45,9 +45,7 @@ export default function Header1({ links }) {
           <Nav links={links} />
         </ul>
         <ul className="items-end clearlist local-scroll">
-          {/* Languages */}
           <LanguageSelect />
-          {/* End Languages */}
           <li>
             <a href="#contact" className="opacity-1 no-hover">
               <span className="link-hover-anim underline" data-link-animate="y">
@@ -57,7 +55,6 @@ export default function Header1({ links }) {
           </li>
         </ul>
       </div>
-      {/* End Main Menu */}
     </div>
   );
 }

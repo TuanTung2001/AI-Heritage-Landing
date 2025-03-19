@@ -86,53 +86,21 @@ export default function Slider6() {
       }}
     >
       {projects.map((elm, i) => (
-        <SwiperSlide key={i} className="page-section bg-gray-lighter" style={{padding: "3rem 0"}}>
+        <SwiperSlide
+          key={i}
+          className="page-section bg-gray-lighter"
+          style={{ padding: "3rem 0" }}
+        >
           <div className="container relative">
-            <div className="row p-4">
-              <div className="col-md-7 mb-sm-40">
-                {/* Work Image */}
-                <div
-                  style={{ height: "100%" }}
-                  className="work-full-media mt-0"
-                >
-                  {elm.type == "image" ? (
-                    <Image 
-                    className="shadow p-3 mb-5 bg-body rounded"
-                      style={{ height: "100%", objectFit: "contain" }}
-                      src={elm.src}
-                      width={1920}
-                      height={1080}
-                      alt=""
-                    />
-                  ) : (
-                    <iframe
-                      src={elm.src}
-                      width={"100%"}
-                      height={563}
-                      allowFullScreen=""
-                    />
-                  )}
-                </div>
-                {/* End Work Image */}
+            <div className="d-flex flex-wrap align-items-center justify-content-center">
+              <div className="w-100 d-flex justify-content-center">
+                <i className="bi bi-quote fs-2 d-flex" ></i>
+                <h2 className="section-title-small mb-md-4 d-inline text-center">
+                  {elm.description}
+                </h2>
+                <i className="bi bi-quote fs-2 d-flex align-items-end" style={{transform: "rotate(180deg)"}}></i>
               </div>
-              <div className="col-md-5 col-lg-4 offset-lg-1 d-flex align-items-center">
-                {/* About Project */}
-                <div className="w-100">
-                  <h2 className="section-title-small mb-30 mb-md-20">
-                    {elm.title}
-                  </h2>
-                  <p className="text-gray mb-40 mb-sm-0">{elm.description}</p>
-                  {/* <div>
-                    <a
-                      href="#"
-                      className="btn btn-mod btn-white btn-round btn-large btn-hover-anim"
-                    >
-                      <span>View Project 1</span>
-                    </a>
-                  </div> */}
-                </div>
-                {/* End About Project */}
-              </div>
+              <p className="text-gray mb-3">{elm.title}</p>
             </div>
           </div>
         </SwiperSlide>

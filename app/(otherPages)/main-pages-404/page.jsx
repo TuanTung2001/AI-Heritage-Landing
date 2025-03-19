@@ -29,7 +29,7 @@ export default function MainAboutPage1() {
                       className="logo-white"
                     />
                     <Image
-                      src="/assets/images/logo-dark.svg"
+                      src="/logo 1.png"
                       alt="Your Company Logo"
                       width={105}
                       height={34}

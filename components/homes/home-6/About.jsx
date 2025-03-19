@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function About() {
   return (
     <div className="row">
-      <div className="col-sm-4 mb-xs-50">
+      <div className="d-none d-md-block col-sm-4 mb-xs-50">
         <div className="me-xl-4 pe-sm-2">
           <div className="composition-1">
             <div className="composition-1-image-1">
@@ -86,7 +86,7 @@ export default function About() {
           </div>
         </div>
       </div>
-      <div className="col-sm-4">
+      <div className="d-none d-md-block col-sm-4">
         <div className="ms-xl-4 ps-sm-2">
           <div className="composition-3">
             <div className="composition-3-image-1">

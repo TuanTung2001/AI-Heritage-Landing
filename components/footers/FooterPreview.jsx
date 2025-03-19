@@ -20,7 +20,7 @@ export default function FooterPreview() {
         <div className="col-md-4 col-lg-3 text-gray mb-sm-50">
           <Link href={"/"} className="mb-30">
             <Image
-              src="/assets/images/logo-dark.svg"
+              src="/logo 1.png"
               width={105}
               height={34}
               alt="Your Company Logo"

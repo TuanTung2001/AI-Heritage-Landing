@@ -14,14 +14,14 @@ export default function Header6({ links }) {
       <div className="nav-logo-wrap position-static local-scroll">
         <a href="#top" className="logo">
           <Image
-            src="/assets/landing/logo.png"
+            src="/logo 1.png"
             alt="Your Company Logo"
             width={154}
             height={35}
             className="light-mode-logo"
           />
           <Image
-            src="/assets/landing/logo.png"
+            src="/logo 1.png"
             alt="Your Company Logo"
             width={154}
             height={35}
@@ -43,46 +43,30 @@ export default function Header6({ links }) {
       <div className="inner-nav desktop-nav">
         <ul className="clearlist scroll-nav local-scroll justify-content-end scrollspyLinks">
           <Nav links={links} />
-          <li className="desktop-nav-display">
+          {/* <li className="desktop-nav-display">
             <div className="vr mt-2" />
-          </li>
+          </li> */}
           {/* Languages */}
-          <LanguageSelect />
+          {/* <LanguageSelect /> */}
           {/* End Languages */}
-          <li>
-            {links[0].href.includes("/") ? (
-              <Link
-                href={links[links.length - 1].href}
-                className="opacity-1 no-hover"
+          {/* <li>
+            <Link
+              href={links[links.length - 1].href}
+              className="opacity-1 no-hover"
+            >
+              <span
+                className="btn btn-mod btn-w btn-border-c btn-border-white-light btn-small btn-round"
+                data-btn-animate="y"
               >
-                <span
-                  className="btn btn-mod btn-w btn-border-c btn-border-white-light btn-small btn-round"
-                  data-btn-animate="y"
-                >
-                  <span className="btn-animate-y">
-                    <span className="btn-animate-y-1">Get in touch</span>
-                    <span className="btn-animate-y-2" aria-hidden="true">
-                      Get in touch
-                    </span>
+                <span className="btn-animate-y">
+                  <span className="btn-animate-y-1">Get in touch</span>
+                  <span className="btn-animate-y-2" aria-hidden="true">
+                    Get in touch
                   </span>
                 </span>
-              </Link>
-            ) : (
-              <a href="#contact" className="opacity-1 no-hover">
-                <span
-                  className="btn btn-mod btn-w btn-border-c btn-border-white-light btn-small btn-round"
-                  data-btn-animate="y"
-                >
-                  <span className="btn-animate-y">
-                    <span className="btn-animate-y-1">Get in touch</span>
-                    <span className="btn-animate-y-2" aria-hidden="true">
-                      Get in touch
-                    </span>
-                  </span>
-                </span>
-              </a>
-            )}
-          </li>
+              </span>
+            </Link>
+          </li> */}
         </ul>
       </div>
       {/* End Main Menu */}

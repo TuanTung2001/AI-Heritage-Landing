@@ -13,8 +13,7 @@ export default function CustomerReview() {
               <div className="col-md-10 offset-md-1 text-center">
                 <h2 className="section-title mb-70 mb-sm-40">
                   Real Stories,
-                  <span className="mark-decoration-1">Real</span>
-                  Comfort
+                  <span className="mark-decoration-1">Real Comfort</span>
                 </h2>
               </div>
             </div>
