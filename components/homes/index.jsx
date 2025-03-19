@@ -1,3 +1,4 @@
+"use client";
 import Footer6 from "@/components/footers/Footer6";
 import Header6 from "@/components/headers/Header6";
 import Hero2 from "@/components/homes/home-1/heros/Hero2";
@@ -5,12 +6,6 @@ import Home6 from "@/components/homes/home-6";
 import { nexCyraMultipage } from "@/data/menu";
 import Image from "next/image";
 
-export const metadata = {
-  title:
-    "Home 6 Image Parallax MultiPage || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
-  description:
-    "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
-};
 export default function Home6ImageParallaxMultiPage() {
   return (
     <>

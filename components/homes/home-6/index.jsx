@@ -7,7 +7,7 @@ import Image from "next/image";
 import Link from "next/link";
 import About from "./About";
 import Contact from "./Contact";
-import Features from "./Features";
+import Features from "@/components/about/Features";
 
 export default function Home6({ onePage = false, dark = false }) {
   return (
@@ -85,7 +85,7 @@ export default function Home6({ onePage = false, dark = false }) {
                 ) : (
                   <>
                     <Link
-                      href={`/fancy-about${dark ? "-dark" : ""}`}
+                      href={`/about-us`}
                       className="link-hover-anim"
                       data-link-animate="y"
                     >

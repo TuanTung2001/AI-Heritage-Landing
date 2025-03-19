@@ -2,12 +2,12 @@ import ParallaxContainer from "@/components/common/ParallaxContainer";
 import Link from "next/link";
 
 import AnimatedText from "@/components/common/AnimatedText";
-import Header1Multipage from "@/components/headers/Header1Multipage";
 import Image from "next/image";
 
 import Faq from "@/components/common/Faq";
 import Footer6 from "@/components/footers/Footer6";
-import { menuItems } from "@/data/menu";
+import Header6 from "@/components/headers/Header6";
+import { nexCyraMultipage } from "@/data/menu";
 
 export const metadata = {
   title:
@@ -18,10 +18,10 @@ export const metadata = {
 export default function FAQPage() {
   return (
     <>
-      <div className="theme-main">
+      <div className="theme-fancy">
         <div className="page" id="top">
           <nav className="main-nav transparent stick-fixed wow-menubar">
-            <Header1Multipage links={menuItems} />
+            <Header6 links={nexCyraMultipage} />
           </nav>
           <main id="main">
             <section className="page-section pt-0 pb-0" id="home">
@@ -120,7 +120,9 @@ export default function FAQPage() {
               </section>
             </>
           </main>
-          <Footer6 />
+          <footer className="page-section footer bg-dark-1 light-content pb-30">
+            <Footer6 />
+          </footer>
         </div>{" "}
       </div>
     </>

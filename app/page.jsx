@@ -1,4 +1,4 @@
-import Home6ImageParallaxMultiPage from "@/app/(homes)/page";
+import Home6ImageParallaxMultiPage from "@/components/homes";
 import "bootstrap-icons/font/bootstrap-icons.css";
 
 export const metadata = {

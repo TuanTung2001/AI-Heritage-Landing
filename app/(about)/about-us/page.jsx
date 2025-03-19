@@ -4,12 +4,9 @@ import Footer6 from "@/components/footers/Footer6";
 import Header6 from "@/components/headers/Header6";
 import About from "@/components/homes/home-6/About";
 import FeaturesAbout from "@/components/homes/home-6/Features";
-import Testimonials from "@/components/homes/home-6/Testimonials";
-import TestimonialsDark from "@/components/homes/home-6/TestimonialsDark";
 import { nexCyraMultipage } from "@/data/menu";
 import Image from "next/image";
 import Link from "next/link";
-const onePage = false;
 const dark = false;
 export const metadata = {
   title:
