@@ -9,10 +9,21 @@ import Image from "next/image";
 import Link from "next/link";
 const dark = false;
 export const metadata = {
-  title:
-    "Fancy About || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
-  description:
-    "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+  title: "About NexCyra",
+  description: "About NexCyra",
+  keywords: 'About NexCyra',
+  openGraph: {
+    title: 'Home NexCyra',
+    description: 'Because Some Voices Deserve to Last Forever.',
+    image: '/logo 2.png',
+    url: 'https://example.com',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Twitter NexCyra',
+    description: 'Description for Twitter Card',
+    image: '/logo 2.png',
+  },
 };
 export default function AboutPage() {
   return (

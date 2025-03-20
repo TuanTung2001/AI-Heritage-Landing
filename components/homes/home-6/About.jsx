@@ -8,7 +8,7 @@ export default function About() {
           <div className="composition-1">
             <div className="composition-1-image-1">
               <Image
-                src="/assets/landing/img2.png"
+                src="/assets/landing/service1.jpg"
                 width={480}
                 height={358}
                 alt="Image Description"
@@ -56,7 +56,7 @@ export default function About() {
           <div className="composition-2">
             <div className="composition-2-image-1 mt-xs-0">
               <Image
-                src="/assets/landing/family2.png"
+                src="/assets/landing/home4.jpg"
                 width={372}
                 height={500}
                 alt="Image Description"
@@ -91,7 +91,7 @@ export default function About() {
           <div className="composition-3">
             <div className="composition-3-image-1">
               <Image
-                src="/assets/landing/img1.png"
+                src="/assets/landing/home5.jpg"
                 width={500}
                 height={372}
                 alt="Image Description"
@@ -99,7 +99,7 @@ export default function About() {
             </div>
             <div className="composition-3-image-2">
               <Image
-                src="/assets/landing/img2.png"
+                src="/assets/landing/home1.jpg"
                 width={440}
                 height={330}
                 alt="Image Description"

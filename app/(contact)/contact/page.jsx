@@ -7,13 +7,23 @@ import Contact from "@/components/homes/home-6/Contact";
 import { nexCyraMultipage } from "@/data/menu";
 import Image from "next/image";
 
-const onePage = false;
 const dark = false;
 export const metadata = {
-  title:
-    "Fancy Contact || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
-  description:
-    "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+  title: "Contact NexCyra",
+  description: "Contact NexCyra",
+  keywords: 'Contact NexCyra',
+  openGraph: {
+    title: 'Home NexCyra',
+    description: 'Because Some Voices Deserve to Last Forever.',
+    image: '/logo 2.png',
+    url: 'https://example.com',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Twitter NexCyra',
+    description: 'Description for Twitter Card',
+    image: '/logo 2.png',
+  },
 };
 export default function ContactPage() {
   return (

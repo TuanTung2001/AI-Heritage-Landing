@@ -10,10 +10,21 @@ import Header6 from "@/components/headers/Header6";
 import { nexCyraMultipage } from "@/data/menu";
 
 export const metadata = {
-  title:
-    "Main About 1 || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
-  description:
-    "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+  title: "FAQ NexCyra",
+  description: "FAQ NexCyra",
+  keywords: 'FAQ NexCyra',
+  openGraph: {
+    title: 'Home NexCyra',
+    description: 'We understand that preserving a loved one’s voice is a deeply personal decision. If you’d like to learn more or discuss how Nexcyra can help, we’re here to listen.',
+    image: '/logo 2.png',
+    url: 'https://example.com',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Twitter NexCyra',
+    description: 'Description for Twitter Card',
+    image: '/logo 2.png',
+  },
 };
 export default function FAQPage() {
   return (
