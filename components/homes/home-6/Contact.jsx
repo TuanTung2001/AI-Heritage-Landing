@@ -1,8 +1,57 @@
 "use client";
-import { contactItems } from "@/data/contact";
-import React from "react";
-import Image from "next/image";
+import { createClient } from "@supabase/supabase-js";
+import { useState } from "react";
+import { toast, ToastContainer } from "react-toastify";
+const supabase = createClient(
+  process.env.NEXT_PUBLIC_SUPABASE_URL,
+  process.env.NEXT_PUBLIC_SUPABASE_API_KEY
+);
+
 export default function Contact() {
+  const [contact, setContact] = useState({
+    name: "",
+    email: "",
+    memories: "",
+    note: "",
+    reason: "",
+  });
+  const insertContact = async () => {
+    if (!contact.name || !contact.email) {
+      toast.error("Name and email is require!");
+    } else {
+      const { data, error } = await supabase
+        .from("contact")
+        .insert([
+          {
+            name: contact.name,
+            email: contact.email,
+            memories: contact.memories,
+            note: contact.note,
+            reason: contact.reason,
+          },
+        ])
+        .select();
+        
+      if (data) {
+        toast.success("Submit feedback success!");
+        setContact({
+          name: "",
+          email: "",
+          memories: "",
+          note: "",
+          reason: "",
+        });
+      }
+    }
+  };
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setContact({
+      ...contact,
+      [name]: value,
+    });
+  };
+
   return (
     <div className="container position-relative">
       <div className="row">
@@ -16,7 +65,7 @@ export default function Contact() {
           <div className="row">
             <div className="col-md-11">
               {/* Address */}
-{/* 
+              {/* 
               {contactItems.map((item, index) => (
                 <React.Fragment key={index}>
                   <div
@@ -106,8 +155,10 @@ export default function Contact() {
                         className="input-lg round form-control"
                         placeholder="Enter your name"
                         pattern=".{3,100}"
+                        onChange={(e) => handleChange(e)}
                         required
                         aria-required="true"
+                        value={contact.name}
                       />
                     </div>
                     {/* End Name */}
@@ -125,6 +176,8 @@ export default function Contact() {
                         pattern=".{5,100}"
                         required
                         aria-required="true"
+                        onChange={(e) => handleChange(e)}
+                        value={contact.email}
                       />
                     </div>
                     {/* End Email */}
@@ -136,12 +189,14 @@ export default function Contact() {
                     Who do you want to preserve memories of?
                   </label>
                   <textarea
-                    name="message"
-                    id="message"
+                    name="memories"
+                    id="memories"
                     className="input-lg round form-control"
                     style={{ height: 100 }}
                     placeholder="Who do you want to preserve memories of?"
-                    defaultValue={""}
+                    // defaultValue={""}
+                    onChange={(e) => handleChange(e)}
+                    value={contact.memories}
                   />
                 </div>
                 <div className="form-group">
@@ -149,12 +204,14 @@ export default function Contact() {
                     What is something about them you never want to forget?
                   </label>
                   <textarea
-                    name="forget"
-                    id="forget"
+                    name="note"
+                    id="note"
                     className="input-lg round form-control"
                     style={{ height: 100 }}
                     placeholder="What is something about them you never want to forget?"
-                    defaultValue={""}
+                    // defaultValue={""}
+                    onChange={(e) => handleChange(e)}
+                    value={contact.note}
                   />
                 </div>
                 <div className="form-group">
@@ -167,7 +224,9 @@ export default function Contact() {
                     className="input-lg round form-control"
                     style={{ height: 100 }}
                     placeholder="Why is this important to you? (Share your thoughts with us…)"
-                    defaultValue={""}
+                    // defaultValue={""}
+                    onChange={(e) => handleChange(e)}
+                    value={contact.reason}
                   />
                 </div>
                 <div className="row">
@@ -176,10 +235,11 @@ export default function Contact() {
                     <div className="pt-3">
                       <button
                         className="submit_btn btn btn-mod btn-color btn-large btn-round btn-hover-anim"
-                        id="submit_btn"
+                        id="liveToastBtn"
                         aria-controls="result"
+                        onClick={insertContact}
                       >
-                        <span>Send Message</span>
+                        <span>Begin Remembering</span>
                       </button>
                     </div>
                     {/* End Send Button */}
@@ -202,6 +262,7 @@ export default function Contact() {
                   aria-atomic="true"
                 />
               </form>
+              <ToastContainer />
               {/* End Contact Form */}
             </div>
           </div>

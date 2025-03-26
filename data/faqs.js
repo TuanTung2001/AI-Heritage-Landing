@@ -21,13 +21,13 @@ export const faqs = [
     id: 4,
     question: "01. Is this an AI chatbot that pretends to be my loved one?",
     answer:
-      "No. Eternal is not about replacing someone you love, nor is it meant to be a replica. Think of it as a part of their memory—a space where their voice, their words, and their essence are preserved, allowing you to revisit them whenever you need. A way to interact with what they left behind, to hear their words when you need guidance, to read their messages when you miss them. They are not here—but their love, their wisdom, and their presence don’t have to fade. Eternal is simply a way to hold onto those memories, to keep them close, and to find comfort in them.",
+      "No. Nexcyra is not about replacing someone you love, nor is it meant to be a replica. Think of it as a part of their memory—a space where their voice, their words, and their essence are preserved, allowing you to revisit them whenever you need. A way to interact with what they left behind, to hear their words when you need guidance, to read their messages when you miss them. They are not here—but their love, their wisdom, and their presence don’t have to fade. Nexcyra is simply a way to hold onto those memories, to keep them close, and to find comfort in them.",
   },
   {
     id: 5,
     question: "02. Will this make it harder for me to move on?",
     answer:
-      "Grief is not about forgetting—it’s about learning to carry love forward. Eternal is designed to help with healing, not to hold you in the past. Instead of leaving memories to fade away in old messages or voicemails, we help create a space where you can revisit them with peace, not pain.",
+      "Grief is not about forgetting—it’s about learning to carry love forward. Nexcyra is designed to help with healing, not to hold you in the past. Instead of leaving memories to fade away in old messages or voicemails, we help create a space where you can revisit them with peace, not pain.",
   },
   {
     id: 6,

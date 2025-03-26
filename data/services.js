@@ -120,7 +120,7 @@ export const services3 = [
     text: "Not just remembering—but feeling close again, whenever you need it.",
   },
   {
-    src: "/assets/landing/Security.png",
+    src: "/assets/landing/security.png",
     title: "Privacy & Security",
     text: "Marketing refers to activities a company undertakes to promote the buying or selling of a product, service, or good.",
   },

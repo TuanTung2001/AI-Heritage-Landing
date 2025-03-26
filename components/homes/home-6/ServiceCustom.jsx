@@ -14,15 +14,15 @@ export default function ServiceCustom() {
             <AnimatedText text="Three Steps to Preserve a Legacy" />
           </h3>
           <ul
-            className="nav nav-tabs services-tabs wow fadeInUp"
+            className="nav nav-tabs wow fadeInUp pr-10"
           >
-            <li role="presentation" className="fs-2 mb-3">
+            <li role="presentation" className="fs-3 mb-3">
               Step 1: Share Their Story
             </li>
-            <li role="presentation" className="fs-2 mb-3">
+            <li role="presentation" className="fs-3 mb-3">
               Step 2: Personalize Their Memory
             </li>
-            <li role="presentation" className="fs-2 mb-3">
+            <li role="presentation" className="fs-3 mb-3">
               Step 3: Reconnect, Whenever You Need
             </li>
           </ul>

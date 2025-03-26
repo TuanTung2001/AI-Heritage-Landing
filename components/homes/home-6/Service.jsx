@@ -11,13 +11,13 @@ const ServiceItem = ({ src, title, text }) => (
           height={150}
           alt="Image Description"
           className=""
-          style={{ objectFit: "cover", height: "150px", width: "150px" }}
+          style={{ objectFit: "cover", height: "100px", width: "100px" }}
         />
       </div>
       <div className="d-flex align-items-center text-center">
         <div className="w-100">
           <h4 className="services-5-title">{title}</h4>
-          <p className="services-5-text mb-0">{text}</p>
+          <p className="services-5-text mb-0 px-4">{text}</p>
         </div>
       </div>
     </div>
